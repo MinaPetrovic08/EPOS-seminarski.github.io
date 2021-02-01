@@ -1,0 +1,111 @@
+.navbar {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+}
+
+.d-block {
+  width: 300px;
+  height: 400px;
+}
+
+.img-fluid {
+  width: 600px;
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.PgName {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6745a), to(transparent));
+  background-image: linear-gradient(#f6745a, transparent 100%);
+  background-size: 100% auto;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+body {
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6745a), to(transparent));
+  background-image: linear-gradient(#f6745a, transparent 100%);
+  background-size: 100% 100%;
+}
+
+.badge {
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+
+.badgeD {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team {
+  color: #5e5e55;
+  padding: 0 180px;
+}
+
+.team .card-columns {
+  -webkit-column-count: 4;
+  column-count: 4;
+}
+
+.team .card {
+  background: none;
+  border: none;
+}
+
+.team .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

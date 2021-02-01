@@ -1,0 +1,76 @@
+$circleW: 300px;
+$circleH: 280px;
+$headerW:100%;
+$headerH:400px;
+$headerG: block;
+
+@mixin position{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header {
+        width: $headerW;
+        height: $headerH;
+        display: $headerG;
+        margin: auto;
+}
+html {
+    background-image: linear-gradient(hsl(10,90,66), transparent 100%);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+}
+.navbar {
+    width: 100%;
+  }
+
+body {
+	height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 100%);
+	background-size: 100% 100%;
+}
+
+.modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+h4{
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+}
+.rounded-circle{
+    width: $circleW;
+    height: $circleH;
+    @include position;
+}
+.modal-body p {
+    color: gray;
+}
+.form-control{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+}
+.modal-btn{
+    background-color: rosybrown;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 80px;
+    color: white;
+    border: none;
+}
+.modal-btn:hover{
+    background-color: brown;
+}
+.badge{
+    @include position;
+    width: 50px;
+}
